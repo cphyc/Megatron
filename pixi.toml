@@ -1,0 +1,22 @@
+[workspace]
+authors = ["Corentin Cadiou <corentin.cadiou@cphyc.me>"]
+channels = ["conda-forge"]
+name = "Megatron"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+numpy = ">=2.5.4,<3"
+matplotlib = ">=3.11.2,<4"
+ipython = ">=9.17.1,<10"
+jupyterlab = ">=4.6.4,<5"
+numexpr = ">=2.14.2,<3"
+
+[pypi-dependencies]
+yt-derived-fields = { git = "https://github.com/AnatoleStorck/yt_derived_fields.git" }
+cython-fortran-file = ">=0.2.7, <0.3"
+yt = { git = "https://github.com/cphyc/yt.git", branch = "octree-particles" }
+ipywidgets = ">=8.1.9, <9"
+gizmo-rtz = { path = "../../prog/gizmo_rtz" }
