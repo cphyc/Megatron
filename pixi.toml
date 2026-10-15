@@ -15,7 +15,7 @@ jupyterlab = ">=4.6.4,<5"
 numexpr = ">=2.14.2,<3"
 
 [pypi-dependencies]
-yt-derived-fields = { git = "https://github.com/AnatoleStorck/yt_derived_fields.git" }
+yt-derived-fields = { git = "https://github.com/AnatoleStorck/yt_derived_fields.git", branch = "improve-loader" }
 cython-fortran-file = ">=0.2.7, <0.3"
 yt = { git = "https://github.com/cphyc/yt.git", branch = "octree-particles" }
 ipywidgets = ">=8.1.9, <9"
